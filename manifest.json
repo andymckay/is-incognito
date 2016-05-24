@@ -1,0 +1,16 @@
+{
+  "description": "Is the current window in private browsing mode or not?",
+  "manifest_version": 2,
+  "name": "Is incognito",
+  "version": "1.0",
+
+  "permissions": [],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_title": "Is Incognito"
+  }
+}
